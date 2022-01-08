@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-violet: hsl(256, 26%, 20%)
+}
+
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: var(--dark-violet);
+    font-weight: 400;
+
+}
+
+#nav-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+
+nav ul li {
+    padding: 25px;
+}
